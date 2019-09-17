@@ -1,5 +1,6 @@
 *, *:before, *:after {
-            box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: font-family: "Open Sans";
 }
 body{
     background-color: #eceef1;
@@ -9,11 +10,20 @@ body{
     min-width: 450px;
     border: 1px solid #eceef1;
     border-radius: 5px;
-    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     overflow: hidden;
     width: 33.33%;
     align: center;
     margin: 0 auto;
+}
+
+.form-header{
+    text-align: center;    
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-header p{
+    font-size: 16px;
 }
 
 .form-title{
@@ -28,14 +38,13 @@ body{
 .sign-up-form .input{
     width: 80%;
     border-radius: 0px;
-    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif
     margin: 0 auto;
     margin-bottom: 10px;
 }
 
 .sign-up-form input{
     border-radius: 1px;
-    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
     padding: 10px 20px;
 }
@@ -44,7 +53,7 @@ body{
     display: block;
     color: #000;
     font-style: bold;
-    font-size: 12px;
+    font-size: 16px;
     float: center;
     margin: 10px 0 0 20px;
 }
