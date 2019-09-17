@@ -48,8 +48,10 @@ body{
     margin: 10px 0 0 20px;
 }
 
-.sign-up-form topicons{
+.sign-up-form logoicons{
   display: block;
+  max-width: 35px;
+  max-height: 30px;
   padding: 0;
 }
 .sign-up-form button{
