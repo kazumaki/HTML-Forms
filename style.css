@@ -4,6 +4,7 @@
 }
 body{
     background-color: #eceef1;
+    font-family: sans-serif;
 }
 
 .form-title, .sign-up-form{
@@ -17,7 +18,7 @@ body{
 }
 
 .form-header{
-    text-align: center;    
+    text-align: center;
     width: 80%;
     margin: 0 auto;
 }
@@ -37,13 +38,13 @@ body{
 
 .sign-up-form .input{
     width: 80%;
-    border-radius: 0px;
+    border-radius: 4px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
 
 .sign-up-form input{
-    border-radius: 1px;
+    border-radius: 4px;
     font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
     padding: 10px 20px;
