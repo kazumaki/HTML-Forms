@@ -9,7 +9,9 @@ nav {
   font-size: 14px;
 }
 
-.fa { font-family: 'FontAwesome' !important; }
+.fa {
+  font-family: 'FontAwesome' !important;
+}
 
 .nav-text {
   display: inline-block;
@@ -37,7 +39,8 @@ body {
   font-family: sans-serif;
 }
 
-.form-title, .sign-up-form {
+.form-title,
+.sign-up-form {
   min-width: 450px;
   border: 1px solid #eceef1;
   border-radius: 5px;
