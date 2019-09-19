@@ -2,18 +2,18 @@
     box-sizing: border-box;
 }
 
-nav{
+nav {
     text-align: right;
     font-size: 14px;
 }
 
 .fa { font-family: 'FontAwesome' !important; }
 
-.nav-text{
+.nav-text {
     display: inline-block;
 }
 
-.sign-in-button{
+.sign-in-button {
     border: 1px solid #4c4c4c;
     color: white;
     background-color: #0077C5;
@@ -26,56 +26,54 @@ nav{
     bottom: 15px;
 }
 
-.sign-in-button i{
+.sign-in-button i {
     margin-right: 10px;
 }
 
-body{
+body {
     font-family: "Open Sans";
     background-color: #eceef1;
     font-family: sans-serif;
 }
 
-.form-title, .sign-up-form{
+.form-title, .sign-up-form {
     min-width: 450px;
     border: 1px solid #eceef1;
     border-radius: 5px;
     overflow: hidden;
     width: 33.33%;
-    align: center;
     margin: 0 auto;
 }
 
-.formheader{
+.formheader {
     text-align: center;
     width: 80%;
     margin: 0 auto;
 }
 
-.form-header p{
+.form-header p {
     font-size: 16px;
 }
 
-.form-title{
+.form-title {
     text-align: center;
 }
 
-.sign-up-form{
+.sign-up-form {
     background-color: white;
     border: solid 1px grey;
 }
 
-.sign-up-form .input{
+.sign-up-form .input {
     width: 80%;
     border-radius: 4px;
     margin: 0 auto;
     margin-bottom: 25px;
 }
 
-.input h6{
+.input h6 {
     margin-top: 5px;
 }
-
 
 .sign-up-form input{
     border-radius: 4px;
@@ -84,7 +82,7 @@ body{
     padding: 10px 20px;
 }
 
-.sign-up-form label{
+.sign-up-form label {
     display: block;
     color: #000;
     font-style: bold;
@@ -94,17 +92,20 @@ body{
     margin-left: 0;
     margin-bottom: 10px;
 }
+
 #logo {
   width: 100%;
   max-width: 220px;
   padding: 0;
 }
-#logoicons{
+
+#logoicons {
   display: block;
   width: 100%;
   padding: 0;
 }
-.sign-up-form button{
+
+.sign-up-form button {
     border-radius: 3px;
     border: none;
     border-bottom: solid 1px black;
@@ -118,11 +119,11 @@ body{
     color: #fff;
 }
 
-.sign-up-form button i{
+.sign-up-form button i {
     margin-right: 5px;
 }
 
-.formbottom{
+.formbottom {
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -135,7 +136,7 @@ body{
 
 }
 
-footer{
+footer {
     text-align: center;
     width: 80%;
     margin: 0 auto;
