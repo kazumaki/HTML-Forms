@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -31,7 +33,6 @@ nav {
 }
 
 body {
-  font-family: "Open Sans";
   background-color: #eceef1;
   font-family: sans-serif;
 }
@@ -106,7 +107,6 @@ body {
 }
 
 .sign-up-form button {
-  border-radius: 3px;
   border: none;
   border-bottom: solid 1px black;
   cursor: pointer;
