@@ -128,6 +128,15 @@ body{
     margin: 0 auto;
 }
 
+.recaptcha {
+    text-align: center;
+    background-color: #eceef1;
+    padding: 10px 10px;
+
+}
+
 footer{
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
