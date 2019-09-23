@@ -87,16 +87,27 @@ body {
   margin-bottom: 10px;
 }
 
-#logo {
-  width: 100%;
-  max-width: 220px;
-  padding: 0;
-}
-
-#logoicons {
+.logoicon {
   display: block;
   width: 100%;
   padding: 0;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.logoicons-container {
+  display: inline-block;
+  color: grey;
+}
+
+.logoicons-container span{
+  position: relative;
+  bottom: 10px;
+}
+
+.logoicons {
+  width: 32px;
+  height: 32px;
 }
 
 .sign-up-form button {
